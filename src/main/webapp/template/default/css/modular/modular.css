@@ -1,0 +1,49 @@
+/**类目属性**/
+.table-special .table-border{ border:none;}
+.table-special .table-border td{ border:none;}
+.table-special .tbody{border-top:none;}
+.table-special .bj td{border-bottom:none;text-align:left; padding-left:10px;border-bottom: none;}
+.table-special table .bj{background:#;}
+.table-special .click td{ text-align:left;;}
+.table-special .click .ahref{ text-align:right;border:none;}
+.table-special .click .ctr{ text-align:center;border:none;}
+.table-special .click .ctr1{ text-align:right;border:none;}
+.table-special .table-border-list{border:none; background:#f4f9fd;}
+.table-special .table-border-list tr:hover{ background:#f4f9fd}
+.table-special .table-border-list tr .right-text{ text-align: center;}
+.table-special .click .i-close,{cursor:pointer;font-size:16px;}
+.table-special .click .i-close:hover,{color:#1598f5;}
+.table-special .zhank .right-text .i-close1{cursor:pointer;font-size:16px;margin-left:10px;}
+.table-special .zhank .right-text .i-close1:hover{color:#1598f5;}
+.table-special table tr .radio-sp{margin:0 6px 0 6px;}
+.table-special .zhank .border-bot-none{ border: none;}
+.table-special .zhank .border-bot-none td{ border: none;}
+.table-special .table-border-list tr .right-text{ text-align: center;}
+.table-special .click .i-close,{cursor:pointer;font-size:16px;}
+.table-special .click .i-close:hover,{color:#1598f5;}
+.table-special .zhank .right-text .i-close1{cursor:pointer;font-size:14px;margin-left:10px;}
+.table-special .zhank .right-text .i-close1:hover{color:#1598f5;}
+.relation-special .table-special tr .left-none{border-left:none}
+.relation-special .table-special tr .right-none{border-right:none}
+
+.relation-title{width:100%;margin-top:30px;color:#777;margin-top:0px;}
+.relation-title a{color:#10a2fb;margin-left:10px;}
+
+.relation-table-div{width:100%;float:left}
+.relation-table-div ul{width:100%;float:left;}
+.relation-table-div ul li{float:left; text-align:left; padding-left:2rem;}
+.relation-table-div ul li .m-left{float:left;margin-right:10px}
+.relation-table-div ul li  p{float:left;margin-right:10px}
+
+/**选项卡**/
+.order-list-table{ width:100%;display:inline-block;border-bottom:1px solid #e4e4e4;padding-bottom:px;margin-top:25px;}
+.order-list-table ul{ width:100%; float:left;}
+.order-list-table ul li{ float:left;border-right:1px solid #ccc;padding:0 10px 0 10px;}
+.order-list-table ul li a{ font-size:14px; color:#333;padding:0 10px 0 10px;}
+.order-list-table ul li a:hover,.order-list-table ul p a:hover{ color:#1598f5;}
+.order-list-table ul li .current{color:#1598f5;border-bottom:2px solid #1598f5;padding-bottom:11px;}
+.order-list-table ul li .current a{ }
+
+/**table td三行样式**/
+.table  tr .new-td{ border: none;border-bottom: 1px solid #ddd;height:40px;margin:0;padding: 0;}
+.table  tr .bot-none{border-bottom: none;}
