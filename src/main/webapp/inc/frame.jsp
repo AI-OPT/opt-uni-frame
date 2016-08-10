@@ -173,7 +173,7 @@
      </div>	
      <!--右侧-->
      
-     <iframe id="content-wrapper-iframe" name="mainFrame"  src="" style="overflow:visible;"  frameborder="0"  scrolling="no" marginheight="0" width="100%" marginwidth="0" onLoad="iFrameHeight()"></iframe>
+     <iframe class="content-wrapper-iframe" id="mainFrame" name="mainFrame"  src="" style="overflow:visible;"  frameborder="0"  scrolling="no" marginheight="0" width="100%" marginwidth="0" ></iframe>
      
    <%@include file="/inc/foot.jsp" %>
     </div>

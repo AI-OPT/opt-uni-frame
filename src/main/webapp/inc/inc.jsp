@@ -34,7 +34,7 @@
 </script>
 
 <script src="${_base}/resources/spm_modules/jquery/1.9.1/jquery.js"></script>
-<script src="${_base}/resources/spm_modules/bootstrap/dist/js/bootstrap.js"></script>
+<%-- <script src="${_base}/resources/spm_modules/bootstrap/dist/js/bootstrap.js"></script> --%>
 <script src="${_base}/resources/spm_modules/seajs/2.3.0/dist/sea.js"></script>
 <script src="${_base}/resources/spm_modules/seajs/seajs-css.js"></script>
 <script src="${_base}/resources/spm_modules/app/core/config.js"></script>

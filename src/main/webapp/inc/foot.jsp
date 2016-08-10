@@ -6,4 +6,6 @@
     </footer>
    <!--/底部结束-->
    <script src="${uedroot}/scripts/modular/scripts.js"></script>
+   <%-- <script src="${uedroot}/scripts/modular/frame.js"></script> --%>
+   
    

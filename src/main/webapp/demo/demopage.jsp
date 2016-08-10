@@ -11,7 +11,7 @@
 <%@include file="/inc/inc.jsp" %>
 </head>
 <body>
-   <div id="content-wrapper-iframe" ><!--右侧灰色背景-->
+   <div class="content-wrapper-iframe" ><!--右侧灰色背景-->
      <!--框架标签结束-->
       <div class="row"><!--外围框架-->
      	<div class="col-lg-12"><!--删格化-->
