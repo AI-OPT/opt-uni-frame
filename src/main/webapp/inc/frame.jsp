@@ -12,7 +12,7 @@
 	
 /* 	$(window).resize(function(){
 		iFrameHeight();
-     }) */
+     }) 
 	function iFrameHeight() {   
 		var ifm= document.getElementById("mainFrame");   
 		var subWeb = document.frames ? document.frames["mainFrame"].document : ifm.contentDocument;   
@@ -20,7 +20,7 @@
 		   ifm.height = subWeb.body.scrollHeight;
 		   ifm.width = subWeb.body.scrollWidth;
 		}   
-	}   
+	}   */
 	</script>	
 </head>
 <body>
