@@ -38,8 +38,16 @@ var oXclosea=document.getElementById('xclose-a');
 		oTree.style.display='none';
 	};
 
-}
-
+};
+	var aD=document.getElementById('addcity');
+	var aF=document.getElementById('addfrei');
+	aD.onclick=function(){
+		if(aF.style.display=='block'){
+			aF.style.display='none';
+		}else{
+			aF.style.display='block';
+		}	
+	};
 
 //类目属性 table 点击展开
 $(function () {
@@ -127,3 +135,11 @@ $('.order-list-table ul li a').click(function(){
   }); 
 });
 //table切换结束
+
+
+//已选中关闭
+$(function(){
+$(".form-label .close1").click(function () {
+	$(".form-label").hide(300)
+	});
+	});

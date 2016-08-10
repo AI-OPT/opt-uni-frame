@@ -13,7 +13,7 @@
                         </a>
                        <!--二级菜单-->
                         <ul class="submenu">
-                            <li><a href="${pageContext.request.contextPath}/demo/demopage" target="mainFrame">@@服务器对接管理@@</a>
+                            <li><a href="${_base}/demo/demopage" target="mainFrame">@@服务器对接管理@@</a>
                            
                             </li>
                             <li><a href="#">服务器对接管理</a></li>

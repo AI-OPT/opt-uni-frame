@@ -6959,6 +6959,21 @@ svg {
 .theme-white .order-list-table ul li .current{color:#27ae60;border-bottom:2px solid #27ae60;padding-bottom:11px;}
 .theme-amethyst .order-list-table ul li .current{color:#8e44ad;border-bottom:2px solid #8e44ad;padding-bottom:11px;}
 
+/**步骤条**/
+.theme-whbl .steps ul li{background:#e1e1e1;color:#333}
+.theme-whbl .steps ul li i{color:#e1e1e1;}
+.theme-whbl .steps ul .active{background:#1c9aec;color:#fff}
+.theme-whbl .steps ul .active i{color:#1c9aec;}
+
+.theme-white .steps ul li{background:#e1e1e1;color:#333}
+.theme-white .steps ul li i{color: #e1e1e1;}
+.theme-white .steps ul .active{background:#27ae60;color:#fff}
+.theme-white .steps ul .active i{color:#27ae60;}
+
+.theme-amethyst .steps ul li{background:#e1e1e1;color:#333}
+.theme-amethyst .steps ul li i{color:#e1e1e1}
+.theme-amethyst .steps ul .active{background:#8e44ad;color:#fff}
+.theme-amethyst .steps ul .active i{color:#8e44ad;}
 
 /**公告位置**/
 .notice{ width:100%; float:left; background:#fff; height:56px;}
@@ -6991,6 +7006,13 @@ svg {
 .form-label ul li .fa-caret-down{ font-size:14px; position:absolute; top:7px; right:-10px;color:#666}
 .form-label ul li .sos{ float:left; margin-left:10px;}
 .form-label ul li .sos a{ color:#666}
+/**新建运费模版**/
+.form-label .add-city{width: 100%;display:inline-block;margin-left:130px;cursor: pointer;margin-top: 10px;}
+.form-label .add-freight{width:100%;padding-left:140px;display: none;}
+.form-label ul li .choice{ padding:0 2px; border:1px solid #e4e4e4; height:30px; float:left;}
+.form-label ul li .choice a{ color:#999; float:left;}
+.form-label ul li .choice .close1{ margin-left:10px; font-size:12px; line-height:30px;color:#999;}
+
 
 /**弹出框**/
 .popup{display:none;z-index:999;position:absolute;}
