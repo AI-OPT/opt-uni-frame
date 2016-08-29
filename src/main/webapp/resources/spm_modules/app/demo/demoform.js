@@ -133,24 +133,7 @@ define('app/demo/demoform', function (require, exports, module) {
     		
     		return formValidator;
     	},
-		//添加输入验证
-		_addValidator:function(validator){
-			validator.addItem({
-				element: "input[name=productCatName]",
-				required: true,
-				errormessageRequired:"类目名称不能为空"
-			}).addItem({
-				element: "input[name=firstLetter]",
-				required: true,
-				rule:'upperCaseRule',
-				errormessage:'请输入名称首字母(大写)',
-			}).addItem({
-				element: "input[name=serialNumber]",
-				required: true,
-				rule:'number min{min:1} max{max:10000}',
-				errormessage:'请输入1至10000的数字',
-			});
-		},
+		
 		//增加类目
 		_addCatTemp:function(){
 			catNum['num']=catNum['num']+1;
@@ -173,18 +156,6 @@ define('app/demo/demoform', function (require, exports, module) {
 			}
 			//获取所有的form-label下的input
 			$("#addViewDiv > .form-label.bd-bottom ").each(function (index, form) {
-				
-				/*var validator = new Validator({
-					element: $(this)
-				});
-				_this._addValidator(validator);
-				validator.execute(function(error, results, element) {
-					if (error){
-						hasError = true;
-					}
-				});*/
-				
-				
 				
 				var catObj = {};
 				console.log(index + " form-label");
