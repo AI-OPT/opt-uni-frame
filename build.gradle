@@ -57,6 +57,15 @@ task templateWebJar(type: Jar) {
         attributes 'packageName': "opt-ued-template", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
     }
 }
+task jscommonlibsJar(type: Jar) {
+    version version
+    baseName "opt-jscommon-libs"
+    from fileTree(dir: 'src/main/webapp/resources/spm_modules')  
+    destinationDir file("$buildDir/jscommonlibs")
+    manifest {
+        attributes 'packageName': "opt-jscommon-libs", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
+    }
+}
 
 
 compileJava.dependsOn clean
@@ -73,14 +82,14 @@ publishing {
             pom.withXml {
             }
         }
-        /*publishing.publications.create("templateCorePublish", MavenPublication) {
+        publishing.publications.create("jscommonlibsPublish", MavenPublication) {
             groupId group
-            artifactId "framepage-core"
+            artifactId "opt-jscommon-libs"
             version version
-            artifact templateCoreJar
+            artifact jscommonlibsJar
             pom.withXml {
             }
-        }*/
+        }
     }
     repositories {
         maven {
