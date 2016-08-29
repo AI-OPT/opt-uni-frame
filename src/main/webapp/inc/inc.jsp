@@ -39,8 +39,8 @@
 <script src="${_base}/resources/spm_modules/seajs/seajs-css.js"></script>
 <script src="${_base}/resources/spm_modules/app/core/config.js"></script>
 <!-- 公共事件 -->
-<script src="${_base}/resources/spm_modules/app/util/common.js" type="text/javascript"></script>
-
+<%-- <script src="${_base}/resources/spm_modules/app/util/common.js" type="text/javascript"></script>
+ --%>
 
 <!-- <link rel="stylesheet" type="text/css" href="${_base}/resources/slpmall/styles/bootstrap.css"> -->
 
@@ -50,6 +50,7 @@
 <link rel="stylesheet" type="text/css" href="${uedroot}/css/bootstrap/font-awesome.css"/>
 <link rel="stylesheet" type="text/css" href="${uedroot}/css/modular/frame.css"/>
 <link rel="stylesheet" type="text/css" href="${uedroot}/css/modular/global.css"/>
+<link rel="stylesheet" type="text/css" href="${uedroot}/css/modular/validate.css"/>
 <link rel="stylesheet" type="text/css" href="${uedroot}/css/ztree/zTreeStyle.css"/>
 <script src="${uedroot}/scripts/plugin/jquery-1.9.1.js"></script>
 <script src="${uedroot}/scripts/plugin/bootstrap.js"></script>

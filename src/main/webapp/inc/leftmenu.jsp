@@ -8,16 +8,15 @@
                 	<li class="active"><a href="#"><i class="fa fa-home"></i><span>系统控制台</span><!--<span class="label label-info label-circle pull-right">28</span>--></a></li>
                     <li>
                         <a href="#" class="dropdown-toggle">
-                        <i class="fa fa-sitemap"></i><span>服务器对接管理</span>
+                        <i class="fa fa-sitemap"></i><span>页面展示示例</span>
                         <i class="fa fa-chevron-circle-right drop-icon"></i>
                         </a>
                        <!--二级菜单-->
                         <ul class="submenu">
-                            <li><a href="${_base}/demo/demopage" target="mainFrame">@@服务器对接管理@@</a>
+                            <li><a href="${_base}/demo/demopage" target="mainFrame">查询列表示例</a>
                            
                             </li>
-                            <li><a href="#">服务器对接管理</a></li>
-                            <li><a href="#">服务器对接管理</a></li>
+                            <li><a href="${_base}/demo/demoform" target="mainFrame">数据校验示例</a></li>
                         </ul>
                         <!--二级菜单结束-->
                     </li>

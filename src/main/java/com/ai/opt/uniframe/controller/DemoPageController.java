@@ -12,8 +12,12 @@ public class DemoPageController {
 	private static final Log LOG = LogFactory.getLog(DemoPageController.class);
     
     @RequestMapping("/demopage")
-    public ModelAndView viewclc() {
+    public ModelAndView demopage() {
         return new ModelAndView("/demo/demopage");
+    }
+    @RequestMapping("/demoform")
+    public ModelAndView demoform() {
+    	return new ModelAndView("/demo/demoform");
     }
     
 
