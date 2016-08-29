@@ -42,7 +42,7 @@
                                     <li class="col-md-12 ui-form-item">
                                         <p class="word"><span>*</span>排序</p>
                                         <p><input name="serialNumber" type="text" class="int-text int-medium" maxlength="5"
-                                                  placeholder="1至10000之间整数"></p>
+                                                  placeholder="1至100之间整数"></p>
                                     </li>
                                 </ul>
                                 <ul>

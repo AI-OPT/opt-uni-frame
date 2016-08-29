@@ -54,7 +54,8 @@ define('app/demo/demoform', function (require, exports, module) {
     					required:true,
     					maxWords:2,
     					maxlength:10,
-    					minlength:3
+    					minlength:3,
+    					regexp: /^\d{4}-\d{2}-\d{2}$/
     					},
     				serialNumber: {
     					required: true,
@@ -90,28 +91,33 @@ define('app/demo/demoform', function (require, exports, module) {
     				}
     			},
     			messages: {
-    				productCatName: "请输入类目名称",
+    				productCatName: {
+    					required:"请输入类目名称",
+    					maxlength:"最大长度不能超过{0}",
+    					minlength:"最小长度不能小于{0}"
+    					},
     				firstLetter: {
     					required:"请输入类目名称首字母",
-    					maxWords:"单词格式超了"
+    					maxWords:"单词格式超了",
+    					minlength:"最小长度为{0}"
+    						
     				}
     				,
     				serialNumber: {
     					required: "请输入排序",
     					digits: "只能输入数字",
-    					min:"最小值为1",
-    					max:"最大值为100"
+    					min:"最小值为{0}",
+    					max:"最大值为{0}"
     				},
     				isChild: {
     					required: "请输入是否存在子分类"
     				},
     				startDate:{
-    					required: "请输入开始日期"    					
+    					required: "请输入开始日期"     						
     				},
     				endDate:{
     					required: "请输入结束日期",
     					isDate:"日期格式错误"
-    					//minDate: "日期"
     				},
     				fee:{
     					required: "请输入金额"
