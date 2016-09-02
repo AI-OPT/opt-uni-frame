@@ -27,7 +27,7 @@
                                 <ul>
                                     <li class="col-md-12 ui-form-item">
                                         <p class="word"><span>*</span>类目名称</p>
-                                        <p><input name="productCatName" type="text" class="int-text int-medium"
+                                        <p><input id="productCatName" name="productCatName" type="text" class="int-text int-medium"
                                                   required maxlength="20">
                                         </p>
                                     </li>
@@ -54,32 +54,32 @@
                                         <p>否</p>
                                     </li>
                                 </ul>
-								 <ul>
-					                <li>
+								 <ul >
+					                <li class="col-md-6">
 					                    <p class="word"><span>*</span>开始日期:</p>
 					                    <p><input id="startDate" type="text" class="int-text int-small"
 					                              name="startDate" ></p>
 					                </li>
-					                <li>
+					                <li class="col-md-6">
 					                    <p class="word"><span>*</span>结束日期:</p>
 					                    <p><input id="endDate" type="text" class="int-text int-small"
 					                              name="endDate" value="2099-12-31" ></p>
 					                </li>
 					            </ul>
-					            <ul>
-					                <li>
+					            <ul >
+					                <li class="col-md-6">
 					                    <p class="word"><span>*</span>金额:</p>
 					                    <p><input id="fee" type="text" class="int-text int-small"
 					                              name="fee" ></p>
 					                </li>
-					                <li>
+					                <li class="col-md-6">
 					                    <p class="word"><span>*</span>三位小数:</p>
 					                    <p><input id="mynum" type="text" class="int-text int-small"
 					                              name="mynum" ></p>
 					                </li>
 					            </ul>
-					            <ul>
-					                <li>
+					            <ul >
+					                <li class="col-md-6">
 					                    <p class="word"><span>*</span>身份证:</p>
 					                    <p><input id="idno" type="text" class="int-text int-small"
 					                              name="idno" ></p>
