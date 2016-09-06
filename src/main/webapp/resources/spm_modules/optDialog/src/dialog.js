@@ -234,7 +234,7 @@ $.extend(prototype, {
      * @name artDialog.prototype.show
      * @param   {HTMLElement Object, Event Object}  指定位置（可选）
      */
-    
+	
     /**
      * 显示对话框（模态）
      * @name artDialog.prototype.showModal
@@ -286,7 +286,7 @@ $.extend(prototype, {
      * @name artDialog.prototype.onshow
      * @event
      */
-
+	
     /**
      * 关闭事件，在 close() 执行
      * @name artDialog.prototype.onclose
@@ -339,6 +339,8 @@ $.extend(prototype, {
 			$icon.attr("class","dialog-icon-success");	
 		}else if(value == "warning"){
 			$icon.attr("class","dialog-icon-warning");		
+		}else if(value == "loading"){
+			$icon.attr("class","dialog-icon-loading");		
 		}
 	},
 
@@ -428,7 +430,7 @@ $.extend(prototype, {
                 + ' i-id="' + id + '"'
                 + style
                 + (val.disabled ? ' disabled' : '')
-                + ' class="slp-btn ui-eject-small-btn"'
+                + ' class="biu-btn btn-primary btn-small ml-15 mt-20 radius"'
                 + 'value="'+ val.value + '"'
                 + '/>';
 
