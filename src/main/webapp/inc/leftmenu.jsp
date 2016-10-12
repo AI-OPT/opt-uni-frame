@@ -23,14 +23,16 @@
                 <li>
                     <a href="#" class="dropdown-toggle">
                     <i class="fa fa-inbox"></i>
-                    <span>智能路由</span>
+                    <span>第三方系统</span>
                     <i class="fa fa-chevron-circle-right drop-icon"></i>
                     </a>
                     <!--二级菜单-->
                     <ul class="submenu">
-                        <li><a href="#">新建路由</a></li>
-                        <li><a href="#">添加路由规则</a></li>
-                        <li><a href="#">新增预警接收人</a></li>
+                        <li><a href="http://www.sohu.com"  target="mainFrame">搜狐</a></li>
+                        <li><a href="http://www.sina.com"  target="mainFrame">新浪</a></li>
+                        <li><a href="https://www.taobao.com"  target="mainFrame">淘宝</a></li>
+                        <li><a href="https://www.tmall.com"  target="mainFrame">天猫</a></li>
+                        <li><a href="http://www.jd.com"  target="mainFrame">京东</a></li>
                     </ul>
                     <!--二级菜单结束-->
                 </li>
