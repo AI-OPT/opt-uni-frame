@@ -15,7 +15,7 @@ buildscript {
 }
 
 dependencies {
-	jsCommonLibs 'com.ai.opt.uniframe:opt-jscommon-libs:1.0-SNAPSHOT'
+	jsCommonLibs 'com.ai.opt.uniframe:yc-jscommon-libs:1.0-SNAPSHOT'
 	.....其它配置
 }
 

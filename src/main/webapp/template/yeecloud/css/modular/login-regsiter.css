@@ -1,0 +1,67 @@
+/**登录**/
+.login-body{background:#f0f2f5;}
+.login-big{width: 1200px;margin:0 auto;}
+.login-headr{width:100%;float:left;margin:60px 0 0 0;border-bottom:1px solid #cfd5e1; padding-bottom:10px;}
+.login-headr p{float:left}
+.login-headr .word{font-size:20px;color:#2361ea;padding:5px 0 0 20px;font-weight:bold;}
+.login-wrapper{width:100%;float:left}
+.login-left{width:500px;height:264px;float:left;margin:200px 0 0 0;}
+.login-right{width:460px;float:left;background:#fff;margin:50px 0 0 100px;padding:20px 30px;}
+.login-title{width:100%;float:left;border-bottom:1px solid #2361ea;padding-bottom:20px;text-align:center;font-size:18px;color:#2361ea;font-weight:bold;}
+.login-form-title{width:100%;float:left;padding:30px;}
+.login-form-title label{float:left;color:#fe6b6b;font-size:12px;}
+.login-form-title .right{float:right;font-size:12px;}
+.login-form-title .right a{color:#9ba3af}
+.login-form-title .right a i{color:#2361ea}
+
+
+.login-form{width:100%;float:left;padding:0 30px;}
+.login-form ul,.login-form ul li{width:100%;float:left;}
+.login-form ul li{margin-bottom:20px;}
+.login-form ul li p{float:left}
+.login-form ul .int-border{width:100%;height:44px;border:1px solid #e6e6e6}
+.login-form ul .int-border:hover{border:1px solid #52dc90;}
+.logon-int{width:280px;height:42px;border:none;background:#fff;line-height:42px;}
+.logon-int:hover{border:none}
+.login-form ul .int-border .int-icon{width:53px;text-align:center;line-height:44px;}
+.logon-yz-int{width:200px;height:44px;border:1px solid #e6e6e6;padding-left:20px;}
+.login-form ul li a{color:#2361ea;font-size:12px;}
+.login-form ul li .right{float:right}
+.login-form ul li .line{width:233px;border-bottom:1px solid #e6e6e6;margin:10px 0 0 20px;}
+.login-form ul li .share{width:30px;height:30px;float:left;margin-right:20px;}
+.login-form ul li .none-ma{margin-right:0;}
+.login-form ul li .share1{background:url(../../images/icon-big.png) no-repeat left -243px;float:left;padding: 0}
+.login-form ul li .share1:hover{background:url(../../images/icon-big.png) no-repeat left -285px;}
+.login-form ul li .share2{background:url(../../images/icon-big.png) no-repeat -50px -243px;float:left;padding: 0}
+.login-form ul li .share2:hover{background:url(../../images/icon-big.png) no-repeat -50px -285px;}
+.login-form ul li .share3{background:url(../../images/icon-big.png) no-repeat -102px -243px;float:left;padding: 0}
+.login-form ul li .share3:hover{background:url(../../images/icon-big.png) no-repeat -102px -285px;}
+.login-form ul li .share4{background:url(../../images/icon-big.png) no-repeat -152px -243px;float:left;padding: 0}
+.login-form ul li .share4:hover{background:url(../../images/icon-big.png) no-repeat -152px -285px;}
+.login-form ul li .share5{background:url(../../images/icon-big.png) no-repeat -202px -243px;float:left;padding: 0}
+.login-form ul li .share5:hover{background:url(../../images/icon-big.png) no-repeat -202px -285px;}
+.login-form ul li .share6{background:url(../../images/icon-big.png) no-repeat -252px -243px;float:left;padding: 0}
+.login-form ul li .share6:hover{background:url(../../images/icon-big.png) no-repeat -252px -285px;}
+.login-form ul li .share7{background:url(../../images/icon-big.png) no-repeat -302px -243px;float:left;padding: 0}
+.login-form ul li .share7:hover{background:url(../../images/icon-big.png) no-repeat -302px -285px;}
+
+/**注册**/
+.register-right{width:586px;float:left;background:#fff;margin:50px 0 0 100px;padding:20px 30px;}
+.register-right ul{width:100%;float:left}
+.register-right ul li{width:100%;float:left;line-height:44px;margin-bottom:20px;}
+.register-right ul li p{float:left;}
+.register-right ul li .img{height:44px;margin:0;}
+.register-right ul li .word{width:80px;text-align: right;margin-right:20px;}
+.radio{width: 14px;height: 14px;margin-right:10px;}
+.register-right ul .ml-100{margin-left:100px;}
+.register-right ul .ml-70{margin-left:70px;}
+.register-right ul .alink,.register-right ul .alink a{font-size:12px}
+.register-right ul .alink a{color:#2361ea}
+.register-right ul .alink .right{float:right}
+/**注册邮箱验证**/
+.verification{width:100%;float:left;padding-bottom:160px;}
+.verification ul{width:100%;float:left;margin-top:160px;}
+.verification ul li{text-align: center;line-height:20px;margin-bottom:20px;}
+.verification ul li a{color:#2865e6;font-size:14px;}
+.verification ul .word{font-size:16px;margin-bottom:40px;}
+.verification ul li span{color:#fa797b}

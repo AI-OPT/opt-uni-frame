@@ -48,22 +48,22 @@ dependencies {
 }
 
 
-task templateWebJar(type: Jar) {
+task yctemplateWebJar(type: Jar) {
     version version
-    baseName "opt-ued-template"
-    from fileTree(dir: 'src/main/webapp/template')  
+    baseName "yc-ued-template"
+    from fileTree(dir: 'src/main/webapp/template/yeecloud')  
     destinationDir file("$buildDir/template")
     manifest {
-        attributes 'packageName': "opt-ued-template", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
+        attributes 'packageName': "yc-ued-template", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
     }
 }
-task jscommonlibsJar(type: Jar) {
+task ycjscommonlibsJar(type: Jar) {
     version version
-    baseName "opt-jscommon-libs"
+    baseName "yc-jscommon-libs"
     from fileTree(dir: 'src/main/webapp/resources/spm_modules')  
     destinationDir file("$buildDir/jscommonlibs")
     manifest {
-        attributes 'packageName': "opt-jscommon-libs", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
+        attributes 'packageName': "yc-jscommon-libs", 'Built-By': builtBy, 'Built-date': new Date().format('yyyy-MM-dd HH:mm:ss'), 'Manifest-Version': version
     }
 }
 
@@ -76,17 +76,17 @@ publishing {
     publications {
         publishing.publications.create("templatePagePublish", MavenPublication) {
             groupId group
-            artifactId "opt-ued-template"
+            artifactId "yc-ued-template"
             version version
-            artifact templateWebJar
+            artifact yctemplateWebJar
             pom.withXml {
             }
         }
         publishing.publications.create("jscommonlibsPublish", MavenPublication) {
             groupId group
-            artifactId "opt-jscommon-libs"
+            artifactId "yc-jscommon-libs"
             version version
-            artifact jscommonlibsJar
+            artifact ycjscommonlibsJar
             pom.withXml {
             }
         }

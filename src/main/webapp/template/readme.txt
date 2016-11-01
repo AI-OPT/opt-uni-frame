@@ -15,13 +15,13 @@ buildscript {
 }
 
 dependencies {
-	optUedTemplate 'com.ai.opt.uniframe:opt-ued-template:1.0-SNAPSHOT'
+	optUedTemplate 'com.ai.opt.uniframe:yc-ued-template:1.0-SNAPSHOT'
 	.....其它配置
 }
 
 def getUedTemplate=task("getUedTemplate",type:com.ai.runner.gradle.plugin.jar.APIJarProcessTask){
 	jarPaths=configurations.optUedTemplate.files.asType(List)
-    destinationDir file("src/main/webapp/resources/template") //这里面的路径建议保持默认
+    destinationDir file("src/main/webapp/resources/template/yeecloud") //这里面的路径建议保持默认
 }
 
 配置好上述脚本后，请在IDE插件或者在命令行执行
