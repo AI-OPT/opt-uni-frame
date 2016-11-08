@@ -8,5 +8,9 @@ jQuery(document).ready(function($) {
 	$('#eject-mask').fadeOut(200);
 	$('#rechargepop').slideUp(200);
 	})
+	$('#close-completed').click(function(){
+	$('#eject-mask').fadeOut(200);
+	$('#rechargepop').slideUp(200);
+	})
 })
 

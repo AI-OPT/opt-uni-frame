@@ -104,3 +104,67 @@ $(function () {
         $('.table-show').hide(1);
     });	
   });
+ 
+//设置密码
+$(function(){
+  $("#next-bt1").click(function(){
+  $("#next1").hide();
+  $("#next2").show();
+  });
+  $("#next-bt2").click(function(){
+  $("#next2").hide();
+  $("#next3").show();
+  });
+  $("#next-bt4").click(function(){
+  $("#next4").hide();
+  $("#next5").show();
+  });
+  $("#next-bt5").click(function(){
+  $("#next5").hide();
+  $("#next6").show();
+  });
+  $("#fy-btn").click(function(){
+  $("#fy1").hide();
+  $("#fy2").show();
+  });
+  $("#fy-btn1").click(function(){
+  $("#fy2").hide();
+  $("#fy1").show();
+  });
+  $("#back-btn").click(function(){
+  $("#back-pass").hide();
+  $("#back-pass1").show();
+  });
+});
+
+//设置密码 table
+$(function(){
+$(".set-up a").click(function () {
+                $(".set-up a").each(function () {
+                    $(this).removeClass("current");
+                });
+                $(this).addClass("current");
+            });
+$('.set-up a').click(function(){
+  var index=$('.set-up a').index(this);
+     if(index==0){
+     $('#set-table1').show();
+  	 $('#set-table2').hide();
+   }
+   if(index==1){
+   $('#set-table2').show();
+   $('#set-table1').hide();
+   }
+  }); 
+});
+
+/**翻译下单去掉最后的线条**/
+$(function () {
+$(".attachment  ul:last").css("border-bottom","none");
+});
+//翻译下单关闭附件
+$(function(){
+$(".attachment ul li i").click(function () {
+	$(this).parent().parent('ul').hide();
+	});
+	}); 
