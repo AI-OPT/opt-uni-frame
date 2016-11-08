@@ -13,6 +13,7 @@ table{border-collapse:collapse;}
 input{outline:none;}
 button{outline:none; cursor:pointer;}
 html,body {height:100%; }
+img{vertical-align:middle}
 
 h1,h2,h3,h4,h5,h6{font-weight:200;line-height:1.1;color:inherit;font-family: "微软雅黑";}
 h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,h1 .small,h2 .small,h3 .small,h4 .small,h5 .small,h6 .small{font-weight:normal;line-height:1;color:#999}
@@ -244,6 +245,7 @@ pre ol.linenums li {
 .taber .body{ clear:both; padding:10px; }
 /************************边框  圆角************************/
 .bk-gray{width:800px;border:solid 1px #ddd}
+.radius2{border-radius:2px;}
 .radius{border-radius:5px;}
 .radius10{border-radius:15px;}
 .radius20{border-radius:30px;}
@@ -393,7 +395,11 @@ pre ol.linenums li {
 .btn-280{width:116px;height:44px;}
 .btn-415{width:420px;height:44px;font-size:18px}
 .btn-80{width:80px;height:25px;font-size:12px;color:#2965e6;border:1px solid #2361ea}
-
+.btn-trans{width:80px;height:26px;font-weight:normal;}
+.btn-trans-b{width:80px;height:26px;font-weight:normal;border:1px solid #2361ea;color:#2965e6}
+.trans-btn-zh{width:104px;height:37px;}
+.place-btn{width:132px;height:40px;font-size:18px;color:#fff;margin-top:50px;-webkit-box-shadow: #3292f8 0px 0px 6px;-moz-box-shadow: #3292f8 0px 0px 6px;box-shadow: #3292f8 0px 0px 6px;margin-left:24px;}
+.place-btn-none{width:132px;height:40px;font-size:18px;margin-top:45px;color:#2965e6}
 /************************表单************************/
 .int-text{border:1px solid #e6e6e6;background:#fff; outline:none;line-height:26px;color:#6a6c6f}
 .int-text:hover{border:1px solid #52dc90;}
@@ -410,6 +416,8 @@ pre ol.linenums li {
 .textarea-xlarge{width:350px;height:80px;padding:0 0 0 20px;}
 .int-in-big{width:425px;height:44px;padding:0 0 0 20px;line-height:44px;}
 .int-in-280{width:280px;height:44px;padding:0 0 0 20px;line-height:44px;}
+.border-sma{border:1px solid #39d5b0}
+.border-sma:hover{border:1px solid #39d5b0}
 /**禁用**/
 .input-disabled{cursor:not-allowed;background:#eee;}
 .input-disabled:hover{border:1px solid #c7c7c7;}
@@ -420,13 +428,21 @@ pre ol.linenums li {
 .textarea-xlarge-text{width:100%;height:210px;padding:0 20px 0 20px;}
 .int-large-mail{width:340px;height:44px;padding:0 0 0 20px;line-height:44px;}
 .int-100{width:1140px;height:44px;padding:0 0 0 20px;}
+.int-red{width:1140px;height:44px;padding:0 0 0 20px;border:1px solid #fe6b6b}
+.int-red:hover{width:1140px;height:44px;padding:0 0 0 20px;border:1px solid #fe6b6b}
 .int-in-250{width:250px;height:44px;padding:0 0 0 20px;line-height:44px;}
 .int-in-300{width:250px;height:44px;padding:0 0 0 20px;line-height:44px;}
+.int-before{width:100%;height:198px;outline:none;line-height:22px;color:#666;word-break:break-all;font-size:14px;border-radius:3px;}
+.int-post{width:100%;height:166px;outline:none;line-height:22px;color:#666;word-break:break-all;font-size:14px;border-radius:3px;}
+
 /************************checkbox************************/
 .skin-minimal .checkbox-1,.checkbox-2,.checkbox-disabled,.checkbox-disabled-checked{width:16px;height:16px;float:left}
 .checkbox-disabled,.checkbox-disabled-checked{cursor:not-allowed;}
 /************************select************************/
-.select{border:1px solid #e6e6e6;background:#fff; outline:none;color:#6a6c6f}
+.select{border:1px solid #e6e6e6;background:#fff; outline:none;color:#6a6c6f;ppearance:none;
+padding:0 10px;-moz-appearance:none;-webkit-appearance:none;
+ background:url(../../images/icon-s.jpg) no-repeat scroll right  #fff;}
+select::-ms-expand { display: none; }
 .select:hover{border:1px solid #e6e6e6;}
 .select-mini{width:102px;height:32px;padding-left:4px;}
 .select-small{width:107px;height:26px;padding-left:4px;}
@@ -442,7 +458,7 @@ pre ol.linenums li {
 .select-topmini{width:82px;height:32px;padding-left:4px;font-size:14px;}
 .select-topmini:hover{border:1px solid #fff;}
 .select-250{width:250px;height:44px;padding-left:4px;}
-.select-300{width:300px;height:44px;padding-left:4px;background:none;}
+.select-300{width:300px;height:44px;padding-left:4px;}
 /**上传按钮**/
 .btn-upload{width:auto;position: relative; display:inline-block;height:36px; *display:inline;overflow:hidden;vertical-align:middle;cursor:pointer}
 .btn-upload .int-file{width:370px;position:absolute;left:0;top:0;height:36px;opacity:0;filter: alpha(opacity=0);z-index: 999;font-size: 50px;}
